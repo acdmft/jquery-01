@@ -1,3 +1,5 @@
-$('.btn').click(function() {
-    $('.form-control').addClass('is-invalid');
+$(() => {
+    $('.btn').click(function() {
+        $('.form-control').addClass('is-invalid');
+    });
 });
