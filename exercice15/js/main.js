@@ -1,5 +1,5 @@
-$(() => {
-    $('.btn').click(function() {
-        $('#text').addClass('float-right');
+document.addEventListener("DOMContentLoaded", function(){
+    document.querySelector('.btn').addEventListener('click', function() {
+        document.querySelector('#text').className = 'float-right';
     });
 });
