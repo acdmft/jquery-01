@@ -1,3 +1,5 @@
-$('.btn').click(function() {
-    $('#text').html('<em>Konexio!</em');
+$(() => {
+    $('.btn').click(function() {
+        $('#text').html('<em>Konexio!</em');
+    });
 });

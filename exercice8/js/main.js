@@ -1,1 +1,3 @@
-$('.btn').click(displaySecretText);
+$(() => {
+    $('.btn').click(displaySecretText);
+});

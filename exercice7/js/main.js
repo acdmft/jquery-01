@@ -1,1 +1,3 @@
-$('#text').css('display', 'block');
+$(() => {
+    $('#text').css('display', 'block');
+});

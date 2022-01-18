@@ -1,6 +1,7 @@
-$('.btn').click(function() {
-    console.log('he')
-    $('#bg').animate({
-        marginLeft: '+=100px'
-    }, 1500);
+$(() => {
+    $('.btn').click(function() {
+        $('#bg').animate({
+            marginLeft: '+=100px'
+        }, 1500);
+    });
 });

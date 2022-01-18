@@ -1,3 +1,5 @@
-$('.btn').click(function() {
-    $('#text').css('display', 'block');
+$(() => {
+    $('.btn').click(function() {
+        $('#text').css('display', 'block');
+    });
 });

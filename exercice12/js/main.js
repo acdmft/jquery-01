@@ -1,3 +1,5 @@
-$('.btn').click(function() {
-    $('#square').css({'height': '500px', 'width': '500px'});
+$(() => {
+    $('.btn').click(function() {
+        $('#square').css({'width': '500px'});
+    });
 });

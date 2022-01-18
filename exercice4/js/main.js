@@ -1,1 +1,3 @@
-$('#text').attr('float','float-right');
+$(() => {
+    $('#text').attr('float','float-right');
+});

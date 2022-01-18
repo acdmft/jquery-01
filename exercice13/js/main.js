@@ -1,3 +1,5 @@
-$('.btn').click(function() {
-    $('#text').css('font-size', '50px');
-})
+$(() => {
+    $('.btn').click(function() {
+        $('#text').css('font-size', '50px');
+    })
+});

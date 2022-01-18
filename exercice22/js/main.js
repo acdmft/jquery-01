@@ -1,3 +1,5 @@
-$('.btn').click(function() {
-    $('#text').animate({fontSize: "50px"}, 3000);
+$(() => {
+    $('.btn').click(function() {
+        $('#text').animate({fontSize: "50px"}, 3000);
+    });
 });

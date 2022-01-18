@@ -1,1 +1,3 @@
-$('#text').html('<em>Konexio!</em');
+$(() => { 
+    $('#text').html('<em>Konexio!</em');
+});
