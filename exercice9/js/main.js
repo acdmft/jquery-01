@@ -1,5 +1,5 @@
-$(() => {
-    $('.btn').click(function() {
-        $('#text').css('display', 'block');
+document.addEventListener("DOMContentLoaded", function(){
+    document.querySelector('.btn').addEventListener('click', function() {
+        document.querySelector('#text').style.display = 'block';
     });
 });

@@ -1,3 +1,3 @@
-$(() => {
-    $('#text').attr('float','float-right');
+document.addEventListener("DOMContentLoaded", function(){
+    document.querySelector('#text').setAttribute('class','float-right');
 });
